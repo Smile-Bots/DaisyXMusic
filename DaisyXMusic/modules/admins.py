@@ -20,13 +20,13 @@ from asyncio import QueueEmpty
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-from DaisyXMusic.config import que
-from DaisyXMusic.function.admins import set
-from DaisyXMusic.helpers.channelmusic import get_chat_id
-from DaisyXMusic.helpers.decorators import authorized_users_only, errors
-from DaisyXMusic.helpers.filters import command, other_filters
-from DaisyXMusic.services.callsmusic import callsmusic
-from DaisyXMusic.services.queues import queues
+from AsunaMusic.config import que
+from AsunaMusic.function.admins import set
+from AsunaMusic.helpers.channelmusic import get_chat_id
+from AsunaMusic.helpers.decorators import authorized_users_only, errors
+from AsunaMusic.helpers.filters import command, other_filters
+from AsunaMusic.services.callsmusic import callsmusic
+from AsunaMusic.services.queues import queues
 
 
 @Client.on_message(filters.command("adminreset"))
