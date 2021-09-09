@@ -24,19 +24,19 @@ from pyrogram.errors import UserAlreadyParticipant
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from youtube_search import YoutubeSearch
 
-from DaisyXMusic.config import BOT_NAME as bn
-from DaisyXMusic.config import DURATION_LIMIT
-from DaisyXMusic.config import UPDATES_CHANNEL as updateschannel
-from DaisyXMusic.config import que
-from DaisyXMusic.helpers.admins import get_administrators
-from DaisyXMusic.helpers.decorators import authorized_users_only
-from DaisyXMusic.helpers.gets import get_file_name
-from DaisyXMusic.modules.play import arq, cb_admin_check, generate_cover
-from DaisyXMusic.services.callsmusic import callsmusic
-from DaisyXMusic.services.callsmusic import client as USER
-from DaisyXMusic.services.converter.converter import convert
-from DaisyXMusic.services.downloaders import youtube
-from DaisyXMusic.services.queues import queues
+from AsunaMusic.config import BOT_NAME as bn
+from AsunaMusic.config import DURATION_LIMIT
+from AsunaMusic.config import UPDATES_CHANNEL as updateschannel
+from AsunaMusic.config import que
+from AsunaMusic.helpers.admins import get_administrators
+from AsunaMusic.helpers.decorators import authorized_users_only
+from AsunaMusic.helpers.gets import get_file_name
+from AsunaMusic.modules.play import arq, cb_admin_check, generate_cover
+from AsunaMusic.services.callsmusic import callsmusic
+from AsunaMusic.services.callsmusic import client as USER
+from AsunaMusic.services.converter.converter import convert
+from AsunaMusic.services.downloaders import youtube
+from AsunaMusic.services.queues import queues
 
 chat_id = None
 
