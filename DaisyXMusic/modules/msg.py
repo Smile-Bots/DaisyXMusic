@@ -1,4 +1,4 @@
-# Daisyxmusic (Telegram bot project )
+# AsunaMusic (Telegram bot project )
 # Copyright (C) 2021  Inukaasith
 
 # This program is free software: you can redistribute it and/or modify
@@ -14,7 +14,7 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-from DaisyXMusic.config import ASSISTANT_NAME, PROJECT_NAME
+from AsunaMusic.config import ASSISTANT_NAME, PROJECT_NAME
 
 
 class Messages:
@@ -69,15 +69,15 @@ class Messages:
 
 ⚪️ For linked group admins only:
 
-- /cplay [song name] - play song you requested
-- /csplay [song name] - play song you requested via jio saavn
-- /cplaylist - Show now playing list
-- /cccurrent - Show now playing
-- /cplayer - open music player settings panel
-- /cpause - pause song play
-- /cresume - resume song play
-- /cskip - play next song
-- /cend - stop music play
+- /play [song name] - play song you requested
+- /splay [song name] - play song you requested via jio saavn
+- /playlist - Show now playing list
+- /current - Show now playing
+- /player - open music player settings panel
+- /pause - pause song play
+- /resume - resume song play
+- /skip - play next song
+- /end - stop music play
 - /userbotjoinchannel - invite assistant to your chat
 
 channel is also can be used instead of c ( /cplay = /channelplay )
