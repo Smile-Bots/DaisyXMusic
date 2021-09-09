@@ -1,4 +1,4 @@
-# Daisyxmusic (Telegram bot project )
+# AsunaMusic (Telegram bot project )
 # Copyright (C) 2021  Inukaasith
 
 # This program is free software: you can redistribute it and/or modify
@@ -20,8 +20,8 @@ import asyncio
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-from DaisyXMusic.config import SUDO_USERS
-from DaisyXMusic.services.callsmusic.callsmusic import client as USER
+from AsunaMusic.config import SUDO_USERS
+from AsunaMusic.services.callsmusic.callsmusic import client as USER
 
 
 @Client.on_message(filters.command(["broadcast"]))
